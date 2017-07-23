@@ -1,0 +1,10720 @@
+ROUND 1: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Spades          Ten of Spades  
+     Deuce of Spades        Eight of Spades  
+      King of Spades         Jack of Spades  
+       Ace of Spades         Five of Hearts  
+      Jack of Diamonds       Four of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+  Four of Spades  
+
+ Deuce of Spades  
+
+  King of Spades  
+
+   Ace of Spades  
+
+  Jack of Diamonds
+
+  fResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 5  y =     0
+
+First hand wins
+
+ROUND 2: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Deuce of Hearts          Ten of Hearts  
+     Seven of Clubs           Six of Hearts  
+       Ace of Spades          Six of Clubs   
+     Deuce of Spades         Five of Hearts  
+      Jack of Spades        Eight of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Hearts   and Deuce of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Six of Hearts   and   Six of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 3: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Clubs         Deuce of Clubs   
+     Seven of Spades          Ace of Diamonds
+       Six of Spades        Three of Diamonds
+     Queen of Hearts          Ace of Spades  
+      Jack of Spades         Four of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ace of Diamonds and   Ace of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 4: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Diamonds       Nine of Diamonds
+      King of Hearts         Five of Diamonds
+      King of Spades          Ten of Clubs   
+       Ten of Spades          Ten of Diamonds
+      Nine of Clubs         Eight of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      King of Hearts   and  King of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ten of Clubs    and   Ten of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 5: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs         Eight of Spades  
+      Five of Spades        Seven of Clubs   
+      King of Clubs           Ace of Hearts  
+       Six of Diamonds       Four of Spades  
+     Deuce of Hearts        Queen of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 6: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Hearts        Eight of Hearts  
+       Ten of Spades         Nine of Hearts  
+      Five of Diamonds       Jack of Hearts  
+       Ten of Diamonds       Nine of Clubs   
+      Nine of Diamonds        Ten of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Ten of Spades   and   Ten of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Nine of Hearts   and  Nine of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 7: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Hearts         Four of Clubs   
+     Seven of Diamonds       Four of Hearts  
+     Three of Hearts        Three of Clubs   
+      Nine of Clubs         Eight of Diamonds
+       Ten of Diamonds      Deuce of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Seven of Hearts   and Seven of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Four of Clubs    and  Four of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 8: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Diamonds       Four of Clubs   
+      Nine of Spades         Five of Diamonds
+      Four of Diamonds      Eight of Hearts  
+      Five of Clubs           Ten of Clubs   
+       Ace of Spades         Nine of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 9: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Clubs         Queen of Diamonds
+     Queen of Clubs           Ten of Hearts  
+     Eight of Clubs          King of Diamonds
+      King of Hearts        Three of Spades  
+     Seven of Spades          Six of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 10: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Hearts          Six of Diamonds
+      Four of Spades          Ten of Diamonds
+      Four of Hearts         Nine of Diamonds
+      Jack of Clubs          Jack of Spades  
+       Six of Clubs         Seven of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Four of Spades   and  Four of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 11: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds      Queen of Diamonds
+     Seven of Hearts         Four of Clubs   
+      King of Hearts          Ten of Spades  
+     Deuce of Spades        Three of Clubs   
+     Deuce of Clubs         Queen of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Spades   and Deuce of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Queen of Diamonds and Queen of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 12: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Hearts         Four of Diamonds
+     Queen of Diamonds      Three of Hearts  
+      King of Clubs           Six of Spades  
+      Jack of Spades         Four of Spades  
+     Deuce of Diamonds        Ten of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Hearts   and  Jack of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Four of Diamonds and  Four of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 13: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts          Six of Clubs   
+     Queen of Clubs          Five of Clubs   
+      Jack of Spades        Deuce of Clubs   
+      Jack of Hearts        Deuce of Spades  
+     Seven of Spades         Four of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Spades   and  Jack of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Deuce of Clubs    and Deuce of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+   Six of Clubs   
+
+  Five of Clubs   
+
+ Deuce of Clubs   
+
+ Deuce of Spades  
+
+  Four of Clubs   
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     5
+
+Second hand wins
+
+ROUND 14: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ten of Spades        Deuce of Clubs   
+     Queen of Clubs           Ten of Clubs   
+      Nine of Diamonds       Four of Hearts  
+      Jack of Clubs          Nine of Clubs   
+       Six of Diamonds      Three of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 15: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Diamonds       Jack of Diamonds
+     Eight of Clubs         Eight of Diamonds
+     Three of Spades        Three of Hearts  
+      Jack of Hearts          Six of Spades  
+       Six of Clubs          Jack of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Diamonds and  Jack of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 16: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Clubs          Four of Diamonds
+     Three of Spades         King of Diamonds
+      Five of Spades         Jack of Diamonds
+      Five of Diamonds      Seven of Spades  
+     Three of Hearts          Ten of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+     Three of Spades   and Three of Hearts  
+
+      Five of Spades   and  Five of Diamonds
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 17: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Spades          Six of Clubs   
+       Ten of Clubs         Seven of Clubs   
+      Four of Diamonds        Ace of Hearts  
+      Five of Clubs         Seven of Hearts  
+      Jack of Hearts          Six of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Spades   and  Jack of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+       Six of Clubs    and   Six of Diamonds
+
+     Seven of Clubs    and Seven of Hearts  
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 18: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs         Three of Diamonds
+       Ten of Clubs         Seven of Diamonds
+     Eight of Diamonds        Ace of Clubs   
+      Nine of Hearts        Deuce of Diamonds
+     Seven of Spades         Jack of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Three of Diamonds
+
+ Seven of Diamonds
+
+   Ace of Clubs   
+
+ Deuce of Diamonds
+
+  Jack of Diamonds
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     5
+
+Second hand wins
+
+ROUND 19: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Clubs           Six of Clubs   
+      Five of Hearts          Ace of Spades  
+     Seven of Clubs         Seven of Spades  
+     Queen of Hearts        Seven of Hearts  
+      Four of Spades        Deuce of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Seven of Spades   and Seven of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 20: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      King of Spades         Nine of Diamonds
+      Five of Clubs         Seven of Spades  
+      King of Diamonds       King of Hearts  
+      King of Clubs         Deuce of Diamonds
+       Six of Spades        Seven of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+      King of Spades  
+
+      King of Diamonds
+
+      King of Clubs   
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Seven of Spades   and Seven of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 21: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Hearts        Queen of Diamonds
+     Three of Spades         King of Hearts  
+       Ten of Diamonds      Deuce of Clubs   
+       Ten of Hearts         Nine of Clubs   
+       Six of Hearts        Seven of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Ten of Diamonds and   Ten of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 22: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Clubs          Nine of Clubs   
+     Three of Hearts          Ten of Diamonds
+      Five of Clubs          Five of Spades  
+       Ace of Hearts          Six of Spades  
+      Nine of Spades        Three of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 23: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds        Ace of Clubs   
+       Six of Clubs         Seven of Hearts  
+       Six of Spades          Six of Hearts  
+      Four of Hearts        Deuce of Clubs   
+      King of Hearts         Four of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Six of Clubs    and   Six of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 24: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Spades        Seven of Hearts  
+      Nine of Hearts          Ten of Spades  
+      Five of Spades        Three of Spades  
+       Ten of Diamonds      Deuce of Diamonds
+      Five of Clubs         Deuce of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Five of Spades   and  Five of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Deuce of Diamonds and Deuce of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 25: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Spades         Five of Clubs   
+     Eight of Clubs         Seven of Diamonds
+      Nine of Clubs          King of Diamonds
+       Ten of Clubs         Eight of Hearts  
+      Nine of Spades        Three of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Nine of Clubs    and  Nine of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 26: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ten of Spades         Five of Hearts  
+     Queen of Diamonds        Ace of Hearts  
+     Three of Spades         Five of Clubs   
+       Six of Clubs           Ace of Diamonds
+     Queen of Clubs          King of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Queen of Diamonds and Queen of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+      Five of Hearts   and  Five of Clubs   
+
+       Ace of Hearts   and   Ace of Diamonds
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 27: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      King of Hearts         Nine of Diamonds
+     Three of Spades         King of Spades  
+       Six of Clubs          Nine of Clubs   
+     Deuce of Diamonds        Ace of Hearts  
+       Ten of Diamonds      Queen of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Nine of Diamonds and  Nine of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 28: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Diamonds       Jack of Hearts  
+     Eight of Spades        Deuce of Diamonds
+     Seven of Spades         Jack of Diamonds
+      Jack of Clubs          Four of Spades  
+      Four of Clubs          Nine of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Four of Diamonds and  Four of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Hearts   and  Jack of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 29: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Spades        Three of Clubs   
+     Deuce of Diamonds      Seven of Clubs   
+     Eight of Hearts        Deuce of Clubs   
+      Four of Diamonds      Queen of Spades  
+      Four of Spades         Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Four of Diamonds and  Four of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 30: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Hearts        Queen of Clubs   
+       Six of Clubs          Four of Spades  
+       Ace of Hearts        Seven of Spades  
+      Jack of Diamonds        Six of Spades  
+      Jack of Hearts         King of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Diamonds and  Jack of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 31: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Clubs         Queen of Diamonds
+      Five of Clubs          King of Clubs   
+      Four of Diamonds      Eight of Diamonds
+       Six of Hearts         Five of Hearts  
+       Ace of Clubs          Nine of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Four of Clubs    and  Four of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 32: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Clubs           Six of Hearts  
+      Five of Diamonds      Queen of Hearts  
+     Three of Spades        Seven of Hearts  
+     Deuce of Hearts        Seven of Clubs   
+      King of Clubs           Ace of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Seven of Hearts   and Seven of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+   Six of Hearts  
+
+ Queen of Hearts  
+
+ Seven of Hearts  
+
+ Seven of Clubs   
+
+   Ace of Hearts  
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     5
+
+Second hand wins
+
+ROUND 33: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Clubs          Five of Spades  
+       Ace of Clubs           Ten of Clubs   
+     Eight of Spades         Nine of Hearts  
+      Five of Hearts         King of Spades  
+       Ten of Hearts        Deuce of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 34: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Spades          Six of Hearts  
+      Five of Clubs         Deuce of Hearts  
+     Queen of Diamonds      Eight of Diamonds
+      Four of Clubs         Three of Clubs   
+      Nine of Spades        Eight of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Queen of Spades   and Queen of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Eight of Diamonds and Eight of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 35: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Clubs          Four of Spades  
+     Deuce of Clubs          Five of Spades  
+       Ace of Diamonds      Three of Clubs   
+     Queen of Clubs         Three of Hearts  
+      King of Clubs          King of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+  Jack of Clubs   
+
+ Deuce of Clubs   
+
+   Ace of Diamonds
+
+ Queen of Clubs   
+
+  King of Clubs   
+
+  fResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Three of Clubs    and Three of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 5  y =     1
+
+First hand wins
+
+ROUND 36: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Six of Hearts          Ten of Spades  
+       Six of Diamonds      Seven of Clubs   
+     Seven of Diamonds      Queen of Spades  
+     Deuce of Diamonds       Jack of Diamonds
+      Nine of Hearts          Ace of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Six of Hearts   and   Six of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 37: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Six of Hearts        Eight of Diamonds
+       Ace of Hearts        Seven of Spades  
+      Nine of Clubs          Four of Hearts  
+     Queen of Diamonds       Five of Clubs   
+      Five of Hearts          Six of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Eight of Diamonds
+
+ Seven of Spades  
+
+  Four of Hearts  
+
+  Five of Clubs   
+
+   Six of Spades  
+
+  sResult[ 5 ] = 1
+
+******
+Result
+******
+
+x = 0  y =     6
+
+Second hand wins
+
+ROUND 38: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Hearts        Eight of Diamonds
+      Five of Diamonds       Five of Hearts  
+     Three of Diamonds      Seven of Clubs   
+       Six of Diamonds       Four of Spades  
+      Nine of Clubs          Nine of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 39: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Hearts         King of Diamonds
+       Ace of Spades        Deuce of Clubs   
+      Jack of Clubs           Ace of Hearts  
+     Deuce of Spades         Five of Hearts  
+       Six of Diamonds      Queen of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 40: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Five of Hearts         Four of Diamonds
+      Nine of Clubs         Seven of Spades  
+     Deuce of Clubs          Five of Diamonds
+     Three of Spades         King of Clubs   
+       Six of Diamonds       King of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      King of Clubs    and  King of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 41: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Spades         Jack of Spades  
+      Jack of Clubs           Ten of Clubs   
+       Ten of Hearts         Nine of Diamonds
+       Ace of Spades          Six of Diamonds
+      Four of Hearts         Four of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 42: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Spades        Three of Clubs   
+     Three of Diamonds      Eight of Clubs   
+      Nine of Clubs           Six of Hearts  
+       Six of Spades        Seven of Hearts  
+       Ten of Clubs         Deuce of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 43: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Spades          Ace of Clubs   
+     Eight of Diamonds       Jack of Diamonds
+      Five of Hearts          Ten of Spades  
+      Four of Spades        Deuce of Hearts  
+     Deuce of Diamonds       Five of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 44: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Spades          Six of Diamonds
+     Seven of Clubs         Eight of Diamonds
+      Jack of Spades         Nine of Diamonds
+      King of Hearts          Ace of Spades  
+     Eight of Clubs         Queen of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Seven of Spades   and Seven of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 45: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs         Eight of Diamonds
+       Six of Clubs          King of Spades  
+      Jack of Clubs           Six of Diamonds
+      King of Hearts         Jack of Diamonds
+      Nine of Diamonds        Ace of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 46: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts         Jack of Hearts  
+     Seven of Diamonds       Four of Spades  
+      King of Clubs          Jack of Spades  
+       Ten of Clubs         Queen of Diamonds
+      Jack of Diamonds       Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Hearts   and  Jack of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 47: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Hearts         Jack of Spades  
+       Six of Clubs           Ace of Diamonds
+      Four of Diamonds      Seven of Spades  
+     Eight of Diamonds      Three of Clubs   
+     Queen of Diamonds        Ace of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ace of Diamonds and   Ace of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 48: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Diamonds       Four of Spades  
+     Eight of Diamonds       Five of Clubs   
+     Seven of Diamonds       Jack of Diamonds
+     Eight of Hearts        Deuce of Hearts  
+      King of Hearts          Six of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Eight of Diamonds and Eight of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 49: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts         Jack of Spades  
+       Ace of Diamonds        Six of Spades  
+      Four of Spades         Four of Clubs   
+     Seven of Hearts        Deuce of Spades  
+     Three of Clubs         Deuce of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Deuce of Spades   and Deuce of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 50: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Diamonds      Eight of Diamonds
+     Deuce of Diamonds       King of Diamonds
+     Deuce of Hearts         Nine of Diamonds
+      King of Hearts         Four of Diamonds
+     Seven of Diamonds      Queen of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Diamonds and Deuce of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Eight of Diamonds
+
+  King of Diamonds
+
+  Nine of Diamonds
+
+  Four of Diamonds
+
+ Queen of Clubs   
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     5
+
+Second hand wins
+
+ROUND 51: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Deuce of Diamonds       King of Diamonds
+      Four of Clubs         Queen of Spades  
+       Ace of Spades        Seven of Spades  
+     Deuce of Clubs          Jack of Hearts  
+     Deuce of Spades          Ten of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+     Deuce of Diamonds
+
+     Deuce of Clubs   
+
+     Deuce of Spades  
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 52: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Six of Hearts         Jack of Clubs   
+       Ten of Spades         Five of Clubs   
+      King of Spades        Three of Clubs   
+      Jack of Spades        Deuce of Spades  
+       Six of Spades        Three of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Six of Hearts   and   Six of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Three of Clubs    and Three of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 53: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Hearts          Ten of Hearts  
+      Jack of Spades          Six of Hearts  
+       Ace of Diamonds      Seven of Clubs   
+     Eight of Spades          Ten of Spades  
+     Queen of Clubs         Three of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Ace of Hearts   and   Ace of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ten of Hearts   and   Ten of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 54: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ten of Diamonds       Jack of Hearts  
+     Three of Diamonds      Three of Hearts  
+     Eight of Clubs         Seven of Diamonds
+      Five of Hearts          Ace of Spades  
+      Four of Clubs          Jack of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Hearts   and  Jack of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 55: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Hearts        Queen of Spades  
+     Deuce of Spades        Eight of Clubs   
+      Nine of Clubs         Seven of Spades  
+      King of Hearts        Deuce of Diamonds
+     Deuce of Hearts        Queen of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Spades   and Deuce of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Queen of Spades   and Queen of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 56: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Clubs         Deuce of Spades  
+      Four of Clubs           Six of Hearts  
+     Queen of Hearts        Queen of Spades  
+     Seven of Clubs         Eight of Diamonds
+      Five of Clubs          Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+  Jack of Clubs   
+
+  Four of Clubs   
+
+ Queen of Hearts  
+
+ Seven of Clubs   
+
+  Five of Clubs   
+
+  fResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 5  y =     0
+
+First hand wins
+
+ROUND 57: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Spades        Eight of Diamonds
+      Five of Clubs         Queen of Spades  
+     Queen of Diamonds       Jack of Diamonds
+      Jack of Clubs           Ten of Hearts  
+      Four of Hearts         Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 58: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Hearts         Nine of Spades  
+      Jack of Diamonds      Eight of Diamonds
+      Nine of Hearts          Six of Hearts  
+       Ace of Diamonds        Ten of Clubs   
+       Ten of Spades         Four of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Hearts   and  Jack of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 59: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts        Queen of Spades  
+     Three of Diamonds        Ten of Clubs   
+      Five of Hearts          Ace of Spades  
+     Three of Spades        Seven of Spades  
+      Nine of Clubs         Eight of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Three of Diamonds and Three of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 60: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Diamonds       Nine of Hearts  
+     Seven of Hearts          Ace of Spades  
+     Three of Diamonds        Six of Hearts  
+       Ten of Spades        Seven of Clubs   
+      King of Spades         Nine of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Nine of Hearts   and  Nine of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 61: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Clubs          Four of Diamonds
+      Nine of Spades         Five of Clubs   
+      Nine of Diamonds        Ten of Hearts  
+       Ten of Clubs         Queen of Diamonds
+       Ace of Hearts         Four of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Nine of Spades   and  Nine of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Four of Diamonds and  Four of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 62: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds       Jack of Hearts  
+      Nine of Clubs         Deuce of Diamonds
+     Three of Diamonds       King of Hearts  
+       Ace of Clubs         Three of Clubs   
+     Three of Spades         Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+      Nine of Diamonds and  Nine of Clubs   
+
+     Three of Diamonds and Three of Spades  
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 63: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Clubs         Deuce of Spades  
+     Deuce of Clubs          King of Hearts  
+      Jack of Spades        Seven of Diamonds
+      Four of Clubs          Nine of Diamonds
+      Jack of Hearts         Five of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Spades   and  Jack of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 64: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds      Eight of Diamonds
+     Three of Diamonds        Six of Hearts  
+     Seven of Clubs          Five of Spades  
+      Five of Diamonds        Ten of Clubs   
+       Six of Diamonds       Four of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+  Nine of Diamonds
+
+ Three of Diamonds
+
+ Seven of Clubs   
+
+  Five of Diamonds
+
+   Six of Diamonds
+
+  fResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 5  y =     0
+
+First hand wins
+
+ROUND 65: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Clubs         Seven of Clubs   
+     Queen of Clubs          Jack of Diamonds
+       Six of Hearts        Eight of Clubs   
+      Five of Diamonds       Jack of Hearts  
+      King of Diamonds       Five of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Diamonds and  Jack of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 66: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs          Five of Spades  
+      King of Diamonds      Queen of Hearts  
+      Nine of Hearts          Ace of Hearts  
+      Five of Hearts        Seven of Clubs   
+     Three of Clubs         Queen of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Queen of Hearts   and Queen of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 67: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Diamonds       Nine of Spades  
+      Five of Clubs          Nine of Clubs   
+       Six of Spades          Six of Clubs   
+     Queen of Diamonds        Ace of Hearts  
+       Ten of Spades          Ten of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Nine of Spades   and  Nine of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 68: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Diamonds        Six of Spades  
+       Ten of Spades        Seven of Clubs   
+      Jack of Diamonds      Three of Spades  
+       Ace of Diamonds      Eight of Spades  
+     Deuce of Clubs           Ten of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 69: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Spades         Jack of Clubs   
+       Six of Diamonds        Six of Hearts  
+      Five of Clubs           Six of Clubs   
+      King of Diamonds        Six of Spades  
+       Ten of Diamonds        Ten of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+       Six of Hearts  
+
+       Six of Clubs   
+
+       Six of Spades  
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 70: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ten of Spades        Three of Hearts  
+      Nine of Diamonds        Ace of Diamonds
+      Five of Spades          Ace of Hearts  
+      Nine of Clubs         Deuce of Diamonds
+      Four of Diamonds        Ace of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Nine of Diamonds and  Nine of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+       Ace of Diamonds
+
+       Ace of Hearts  
+
+       Ace of Spades  
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 71: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts         Five of Spades  
+      Four of Clubs          Nine of Diamonds
+      Jack of Spades         Nine of Clubs   
+       Ten of Clubs          Jack of Hearts  
+     Deuce of Diamonds        Ten of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Nine of Diamonds and  Nine of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 72: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Seven of Hearts        Deuce of Hearts  
+     Three of Diamonds       Four of Hearts  
+       Ace of Diamonds       King of Hearts  
+      Nine of Diamonds        Ten of Clubs   
+      Five of Clubs         Three of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 73: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Diamonds       Five of Diamonds
+     Eight of Clubs         Three of Hearts  
+      King of Diamonds      Seven of Spades  
+      King of Hearts         Four of Hearts  
+       Ace of Clubs          Five of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+       Ace of Diamonds and   Ace of Clubs   
+
+      King of Diamonds and  King of Hearts  
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Five of Diamonds and  Five of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 74: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds       Four of Clubs   
+     Three of Hearts         Jack of Hearts  
+       Six of Hearts        Deuce of Diamonds
+       Ten of Spades          Ace of Hearts  
+     Three of Spades        Queen of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Three of Hearts   and Three of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 75: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Spades          Ace of Spades  
+     Deuce of Hearts          Ten of Spades  
+     Deuce of Clubs         Three of Spades  
+       Ten of Diamonds      Queen of Clubs   
+     Three of Clubs          King of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Hearts   and Deuce of Clubs   
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+   Ace of Spades  
+
+   Ten of Spades  
+
+ Three of Spades  
+
+ Queen of Clubs   
+
+  King of Spades  
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     5
+
+Second hand wins
+
+ROUND 76: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ace of Hearts        Deuce of Hearts  
+       Ace of Spades         Jack of Hearts  
+      King of Hearts          Ace of Diamonds
+     Eight of Hearts         Nine of Diamonds
+     Three of Diamonds      Seven of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Ace of Hearts   and   Ace of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 77: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Hearts        Seven of Hearts  
+       Ten of Hearts          Six of Diamonds
+     Seven of Diamonds      Eight of Diamonds
+      Jack of Clubs         Seven of Clubs   
+     Deuce of Spades         Jack of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Seven of Hearts   and Seven of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 78: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Five of Diamonds      Three of Clubs   
+      King of Hearts         Five of Hearts  
+       Ace of Spades         Nine of Diamonds
+       Ten of Hearts         Five of Spades  
+       Six of Hearts          Ten of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Five of Hearts   and  Five of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 79: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Diamonds      Seven of Diamonds
+      Nine of Spades         Five of Clubs   
+      King of Diamonds        Ace of Diamonds
+      Jack of Hearts          Ace of Clubs   
+     Queen of Spades        Queen of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Queen of Diamonds and Queen of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ace of Diamonds and   Ace of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 80: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Diamonds        Ten of Hearts  
+       Six of Hearts        Queen of Diamonds
+       Ten of Diamonds        Ace of Clubs   
+       Six of Spades         Four of Spades  
+       Ace of Diamonds       Jack of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Six of Hearts   and   Six of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 81: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Clubs         Queen of Diamonds
+      Five of Hearts         King of Clubs   
+     Three of Hearts         King of Spades  
+     Seven of Hearts        Seven of Clubs   
+      Jack of Spades         Nine of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Three of Clubs    and Three of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      King of Clubs    and  King of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 82: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Spades         Five of Spades  
+     Deuce of Diamonds       Five of Hearts  
+     Eight of Diamonds       Jack of Hearts  
+     Deuce of Spades         Four of Spades  
+     Queen of Hearts          Six of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Deuce of Diamonds and Deuce of Spades  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Five of Spades   and  Five of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 83: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts         Five of Spades  
+      Jack of Hearts         Jack of Diamonds
+       Ten of Spades         King of Clubs   
+       Ace of Diamonds        Ten of Clubs   
+      Five of Diamonds        Ace of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 84: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Deuce of Spades        Eight of Hearts  
+       Ace of Spades        Deuce of Clubs   
+       Ace of Hearts        Eight of Diamonds
+      Five of Hearts        Three of Diamonds
+      King of Hearts          Six of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+       Ace of Spades   and   Ace of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Eight of Hearts   and Eight of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 85: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      King of Hearts        Queen of Spades  
+      Nine of Spades        Deuce of Hearts  
+     Seven of Hearts        Eight of Spades  
+     Deuce of Diamonds      Deuce of Clubs   
+     Queen of Clubs         Eight of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+     Deuce of Hearts   and Deuce of Clubs   
+
+     Eight of Spades   and Eight of Diamonds
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 86: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+       Ten of Spades         Four of Clubs   
+     Three of Hearts         Nine of Spades  
+      Jack of Clubs          Jack of Hearts  
+      King of Hearts          Six of Diamonds
+       Ace of Hearts        Deuce of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 87: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Hearts          Six of Hearts  
+     Three of Diamonds      Seven of Diamonds
+      Four of Hearts         Five of Spades  
+     Seven of Hearts          Ace of Spades  
+     Queen of Diamonds      Deuce of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Three of Hearts   and Three of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 88: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs         Deuce of Hearts  
+       Ten of Spades         Jack of Diamonds
+       Ace of Hearts          Ace of Clubs   
+     Seven of Clubs          King of Clubs   
+      Jack of Spades        Eight of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 89: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Queen of Clubs          Nine of Clubs   
+       Ten of Hearts        Seven of Clubs   
+     Deuce of Spades         Nine of Spades  
+     Queen of Diamonds      Seven of Diamonds
+      King of Hearts          Six of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Queen of Clubs    and Queen of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+      Nine of Clubs    and  Nine of Spades  
+
+     Seven of Clubs    and Seven of Diamonds
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     0
+
+First hand wins
+
+ROUND 90: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Nine of Clubs         Three of Spades  
+      Jack of Hearts          Ten of Diamonds
+      King of Clubs         Deuce of Spades  
+      Four of Hearts         Five of Spades  
+     Eight of Clubs           Ten of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Ten of Diamonds and   Ten of Hearts  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 91: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Diamonds      Eight of Spades  
+      Nine of Hearts         Jack of Clubs   
+       Ten of Hearts         Four of Clubs   
+       Ace of Diamonds        Ten of Clubs   
+      King of Diamonds       Nine of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 92: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Four of Clubs         Three of Spades  
+     Seven of Clubs          Jack of Diamonds
+      Jack of Spades         Jack of Clubs   
+     Queen of Spades        Deuce of Spades  
+       Ace of Spades        Eight of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Diamonds and  Jack of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 93: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Five of Clubs          Jack of Spades  
+     Seven of Diamonds       Five of Hearts  
+       Ten of Spades        Eight of Hearts  
+      Nine of Hearts         Five of Spades  
+     Deuce of Spades          Ten of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Five of Hearts   and  Five of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 94: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Hearts          Ten of Clubs   
+       Ace of Diamonds        Six of Diamonds
+     Three of Clubs           Six of Spades  
+      Five of Hearts        Eight of Spades  
+      Five of Diamonds       King of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Five of Hearts   and  Five of Diamonds
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+       Six of Diamonds and   Six of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 95: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Five of Hearts        Queen of Spades  
+      Jack of Clubs           Ace of Spades  
+       Ten of Spades        Three of Hearts  
+      Nine of Clubs          King of Spades  
+     Deuce of Spades         Jack of Spades  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Queen of Spades  
+
+   Ace of Spades  
+
+ Three of Hearts  
+
+  King of Spades  
+
+  Jack of Spades  
+
+  sResult[ 4 ] = 1
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     5
+
+Second hand wins
+
+ROUND 96: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Three of Spades          Ace of Diamonds
+     Seven of Hearts        Eight of Spades  
+     Three of Hearts         King of Clubs   
+     Deuce of Clubs          Jack of Diamonds
+       Ten of Diamonds       King of Diamonds
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+     Three of Spades   and Three of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      King of Clubs    and  King of Diamonds
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+
+ROUND 97: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Eight of Diamonds      Seven of Diamonds
+       Six of Spades          Ten of Diamonds
+      Nine of Hearts         King of Clubs   
+      Four of Clubs         Deuce of Clubs   
+     Queen of Clubs          Four of Hearts  
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 98: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+     Deuce of Hearts          Six of Spades  
+      Jack of Hearts        Three of Clubs   
+      Jack of Diamonds      Queen of Clubs   
+      King of Hearts         Jack of Clubs   
+     Deuce of Spades          Ten of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+     Deuce of Hearts   and Deuce of Spades  
+
+      Jack of Hearts   and  Jack of Diamonds
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  sResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     0
+
+Tie
+
+ROUND 99: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      King of Clubs          Jack of Clubs   
+     Queen of Hearts        Eight of Diamonds
+     Eight of Spades        Seven of Clubs   
+       Six of Hearts         Jack of Spades  
+      Five of Hearts         Five of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+ Your five-hand card does not contain any pair. 
+
+  fResult[ 0 ] = 0
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+      Jack of Clubs    and  Jack of Spades  
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 0  y =     1
+
+Second hand wins
+
+ROUND 100: 
+*************************
+Your five-card poker hand
+*************************
+
+First hand                  Second hand
+**********                  ***********
+
+      Jack of Clubs          Four of Hearts  
+       Six of Diamonds      Deuce of Hearts  
+      Jack of Hearts        Queen of Hearts  
+      Four of Clubs         Seven of Clubs   
+       Ace of Clubs         Deuce of Clubs   
+
+******************
+Evaluate both hand
+******************
+
+First hand
+**********
+
+
+Pair...
+
+      Jack of Clubs    and  Jack of Hearts  
+
+  fResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  fResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  fResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  fResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  fResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  fResult[ 5 ] = 0
+
+Second hand
+***********
+
+
+Pair...
+
+     Deuce of Hearts   and Deuce of Clubs   
+
+  sResult[ 0 ] = 1
+
+Two-pair...
+
+ Your five-hand card does not contains two pair.
+
+  sResult[ 1 ] = 0
+
+Three of a kind...
+
+  Your five-hand card doesn't contains three of a kind.
+
+  sResult[ 2 ] = 0
+
+Four of a kind...
+
+  Your five-hand card doesn't contains four-of-a-kind.
+
+  sResult[ 3 ] = 0
+
+Flush...
+
+ Not flush
+
+  sResult[ 4 ] = 0
+
+Straight...
+
+ Not a straight
+
+  sResult[ 5 ] = 0
+
+******
+Result
+******
+
+x = 1  y =     1
+
+Tie
+

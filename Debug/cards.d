@@ -1,0 +1,1 @@
+cards.o: ../cards.c
